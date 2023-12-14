@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/styles/style.module.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA","file":"src.a2b27638.css","sourceRoot":"..","sourcesContent":[".overlap {\r\n    position: absolute;\r\n    border: 1px solid black;\r\n}"]}
