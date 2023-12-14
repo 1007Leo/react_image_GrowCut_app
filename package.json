@@ -1,9 +1,12 @@
 {
   "name": "indiv",
   "version": "1.0.0",
+  "homepage": "https://gitname.github.io/react_app"
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html --open"
   },
