@@ -1,12 +1,13 @@
 {
   "name": "indiv",
   "version": "1.0.0",
-  "homepage": "https://gitname.github.io/react_app",
+  "homepage": "https://1007leo.github.io/react_app/",
   "description": "",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build index.html --no-source-maps --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html --open"
   },
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@parcel/babel-preset-env": "^2.10.2",
+    "gh-pages": "^6.1.0",
     "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
